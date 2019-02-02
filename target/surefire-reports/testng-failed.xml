@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Porche Automated Tests]">
+  <test thread-count="5" verbose="0" name="Porsche Automated Test(failed)">
+    <classes>
+      <class name="com.Porsche.tests.tests.smoke_tests.SelectingBrand">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="setUpDriver"/>
+          <include name="selecting718"/>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.Porsche.tests.tests.smoke_tests.SelectingBrand -->
+    </classes>
+  </test> <!-- Porsche Automated Test(failed) -->
+</suite> <!-- Failed suite [Porche Automated Tests] -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Porche Automated Tests" duration-ms="31649" started-at="2019-02-02T06:40:33Z" finished-at="2019-02-02T06:41:05Z">
+    <groups>
+    </groups>
+    <test name="Porsche Automated Test" duration-ms="31649" started-at="2019-02-02T06:40:33Z" finished-at="2019-02-02T06:41:05Z">
+      <class name="com.Porsche.tests.tests.smoke_tests.SelectingBrand">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.Porsche.tests.tests.smoke_tests.SelectingBrand@15975490]" name="setUpTest" is-config="true" duration-ms="252" started-at="2019-02-02T06:40:33Z" finished-at="2019-02-02T06:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String)[pri:0, instance:com.Porsche.tests.tests.smoke_tests.SelectingBrand@15975490]" name="setUpDriver" is-config="true" duration-ms="10879" started-at="2019-02-02T06:40:34Z" finished-at="2019-02-02T06:40:45Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="selecting718()[pri:0, instance:com.Porsche.tests.tests.smoke_tests.SelectingBrand@15975490]" name="selecting718" duration-ms="19292" started-at="2019-02-02T06:40:45Z" finished-at="2019-02-02T06:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecting718 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Porsche.tests.tests.smoke_tests.SelectingBrand@15975490]" name="tearDown" is-config="true" duration-ms="1004" started-at="2019-02-02T06:41:04Z" finished-at="2019-02-02T06:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selecting718 status=SUCCESS method=SelectingBrand.selecting718()[pri:0, instance:com.Porsche.tests.tests.smoke_tests.SelectingBrand@15975490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.Porsche.tests.tests.smoke_tests.SelectingBrand@15975490]" name="tearDownTest" is-config="true" duration-ms="9" started-at="2019-02-02T06:41:05Z" finished-at="2019-02-02T06:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.Porsche.tests.tests.smoke_tests.SelectingBrand -->
+    </test> <!-- Porsche Automated Test -->
+  </suite> <!-- Porche Automated Tests -->
+</testng-results>

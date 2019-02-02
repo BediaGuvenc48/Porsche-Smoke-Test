@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Porche Automated Tests"  verbose="2">
+
+    <test name="Porsche Automated Test">
+
+        <classes>
+            <class name="com.Porsche.tests.tests.smoke_tests.SelectingBrand"></class>
+        </classes>
+    </test>
+
+
+</suite>
+
